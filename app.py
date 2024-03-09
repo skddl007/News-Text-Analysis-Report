@@ -17,6 +17,7 @@ from io import BytesIO
 import base64
 import requests
 
+nltk.download('punkt')
 
 def run_flask():
     http_server = WSGIServer(('127.0.0.1', 5000), app)
