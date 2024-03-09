@@ -64,7 +64,7 @@ github = oauth.register(
 )
 
 # GitHub admin usernames for verification
-github_admin_usernames = ["skddl005", "skddl007", "atmabodha"]
+github_admin_usernames = ["skddl007", "atmabodha"]
 
 # Password for accessing history
 ADMIN_PASSWORD = "Sandeep123"
@@ -79,10 +79,10 @@ sender_name = "Sandeep Kumar"
 admin_emails = ["su-23036@sitare.org", "saneeipk@gmail.com", "kushal@sitare.org"]
 
 # PostgreSQL database connection details
-DB_NAME = "flask_data"
-DB_USER = "postgres"
-DB_PASSWORD = "Skd6397@@"
-DB_HOST = "localhost"
+DB_NAME = "flask_data_g20i"
+DB_USER = "sandeep"
+DB_PASSWORD = "AEhUuwFOp0jMBchnfdd98U81VU6oSGzE"
+DB_HOST = "dpg-cnmb5qen7f5s73d6d8rg-a"
 
 # Flask-Mail configuration
 app.config["MAIL_SERVER"] = 'smtp.gmail.com'
