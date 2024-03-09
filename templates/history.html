@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Set the background color */
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        a.logout {
+            display: block;
+            text-align: left;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white; /* White color for logout link */
+            background-color: #007bff; /* Blue color for background */
+            padding: 10px 20px; /* Padding for the logout link */
+            border-radius: 5px; /* Rounded corners */
+            width: fit-content; /* Adjust width based on content */
+            margin: 0 auto; /* Center horizontally */
+        }
+        
+        a.logout:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
+        }
+        
+        
+        /* Limit the width of the URL column */
+        td:first-child {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2; /* Light gray background for even rows */
+        }
+    </style>
+</head>
+<body>
+    <a class="logout" href="{{ url_for('github_logout') }}">Logout</a>
+    <h1>History Page</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Text</th>
+                <th>Title</th>
+                <th>Keywords</th>
+                <th>Number of Sentences</th>
+                <th>Number of Words</th>
+                <th>UPOS Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in data %}
+                <tr>
+                    <td>{{ entry[1] }}</td>
+                    <td>{{ entry[4] }}</td>
+                    <td>{{ entry[2] }}</td>
+                    <td>{{ entry[3] }}</td>
+                    <td>{{ entry[5] }}</td>
+                    <td>{{ entry[6] }}</td>
+                    <td>{{ entry[7] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
