@@ -14,7 +14,7 @@ six==1.16.0
 authlib==0.15.3
 google-auth-oauthlib==0.4.6
 Flask-Mail==0.9.1
-newspaper==0.6.0
+newspaper==0.1.0.5
 matplotlib==3.6.2
 
 
