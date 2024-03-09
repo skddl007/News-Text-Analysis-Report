@@ -20,6 +20,7 @@ import requests
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('universal_tagset')
 
 def run_flask():
     http_server = WSGIServer(('127.0.0.1', 5000), app)
