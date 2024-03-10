@@ -52,8 +52,8 @@ app.secret_key = 'This is secret'
 
 # github
 app.config['SECRET_KEY'] = "THIS SHOULD BE SECRET"
-app.config['GITHUB_CLIENT_ID'] = "ff2a9c4a4abf7eb1cc8a"
-app.config['GITHUB_CLIENT_SECRET'] = "389817d58b1c506cd1684ac45c83ea0a526c89b6"
+app.config['GITHUB_CLIENT_ID'] = "7345b1582a104ad3d627"
+app.config['GITHUB_CLIENT_SECRET'] = "543f758ce21a4a9be2548ce9272eb77b960b4f1e"
 
 github = oauth.register(
     name='github',
