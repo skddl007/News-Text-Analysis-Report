@@ -192,7 +192,7 @@ def index():
     return render_template('index.html')
 
 def generate_plot_and_save(labels, values):
-    plt.bar(labels, values, color='red')
+    plt.bar(labels, values, color='blue')
     plt.xlabel('Ratios')
     plt.ylabel('Values')
     plt.title('Parts of Speech Ratios')
