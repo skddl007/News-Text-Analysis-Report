@@ -43,7 +43,7 @@ scopes = ['https://www.googleapis.com/auth/userinfo.profile',
           'openid']
 
 # Redirect URI for the OAuth flow
-redirect_uri = 'http://127.0.0.1:5000/callback'
+redirect_uri = 'https://text-scrapping.onrender.com/callback'
 
 # Create the OAuth flow object
 flow = Flow.from_client_secrets_file(client_secrets_file, scopes=scopes, redirect_uri=redirect_uri)
