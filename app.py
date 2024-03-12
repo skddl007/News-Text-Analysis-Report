@@ -33,7 +33,7 @@ def connect_to_database():
 # Path to the client secrets file
 client_secrets_file = "client_secret_143941895939-leieb5islecnelgh4qup9hiel28d8pmc.apps.googleusercontent.com.json"
 
-app = Flask(__name__, static_folder='text project 1/static')
+app = Flask(__name__, static_folder='static')
 mail = Mail(app)
 oauth = OAuth(app)
 
