@@ -68,17 +68,11 @@
           margin-right: 20px;
         }
         .logo {
-          font-family: Stencil, fantasy;
-          font-size: 36px;
-          color: #357EC7;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
           position: absolute;
           top: 20px;
           left: 20px;
+          width:50px;
         }
-        
     </style>
 </head>
 <body>
@@ -87,7 +81,9 @@
     <a href="#">Home</a>
     <a href="#">Contact Us</a>
 </div>
-<div class="logo">Pulse Press</div>
+<div class="logo">
+    <img width="70px" src="../static/logoo.jpg" alt="Website logo">
+</div>
 
 <h1>News Analyzer</h1>
 <form action="{{ url_for('submit') }}" method="POST" class="mx-auto w-50">
