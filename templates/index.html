@@ -82,8 +82,9 @@
     <a href="#">Contact Us</a>
 </div>
 <div class="logo">
-    <img width="70px" src="loogo.png" alt="Website logo">
+    <img width="70px" src="{{ url_for('static', filename='loogo.png') }}" alt="Website logo">
 </div>
+    
 
 <h1>News Analyzer</h1>
 <form action="{{ url_for('submit') }}" method="POST" class="mx-auto w-50">
