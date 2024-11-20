@@ -17,6 +17,8 @@ Flask-Mail==0.9.1
 newspaper3k==0.2.8
 matplotlib==3.6.2
 gevent==23.9.1
+pip install lxml[html_clean]
+
 
 
 gunicorn
