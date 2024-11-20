@@ -2,7 +2,7 @@ Flask
 Flask-OAuthlib
 psycopg2-binary
 beautifulsoup4
-nltk
+nltk==3.8.1
 textblob
 Jinja2
 Werkzeug
