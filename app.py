@@ -83,10 +83,10 @@ sender_name = "Sandeep Kumar"
 admin_emails = ["su-23036@sitare.org", "saneeipk@gmail.com", "kushal@sitare.org"]
 
 # PostgreSQL database connection details
-DB_NAME = "flask_data_g20i"
+DB_NAME = "news_data_pc6s"
 DB_USER = "sandeep"
-DB_PASSWORD = "AEhUuwFOp0jMBchnfdd98U81VU6oSGzE"
-DB_HOST = "dpg-cnmb5qen7f5s73d6d8rg-a"
+DB_PASSWORD = "Zf9Gdu5pGdCeUzdn2t5BnBvUw3aiPKsc"
+DB_HOST = "dpg-csv3qhdumphs7380h0n0-a"
 
 # Flask-Mail configuration
 app.config["MAIL_SERVER"] = 'smtp.gmail.com'
