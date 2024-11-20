@@ -1,23 +1,24 @@
-Flask==2.0.0
+Flask
 Flask-OAuthlib
-psycopg2-binary==2.9.9
-beautifulsoup4==4.10.0
-nltk==3.6.5
-textblob==0.15.3
-Jinja2==3.0.0
-Werkzeug==2.0.2
-oauthlib==3.1.1
-MarkupSafe==2.1.0
-click==8.0.3
-itsdangerous==2.0.1
-six==1.16.0
-authlib==0.15.3
-google-auth-oauthlib==0.4.6
-Flask-Mail==0.9.1
-newspaper3k==0.2.8
-matplotlib==3.6.2
-gevent==23.9.1
-pip install lxml[html_clean]
+psycopg2-binary
+beautifulsoup4
+nltk
+textblob
+Jinja2
+Werkzeug
+oauthlib
+MarkupSafe
+click
+itsdangerous
+six
+authlib
+google-auth-oauthlib
+Flask-Mail
+newspaper3k
+matplotlib
+gevent
+pip install lxml_html_clean
+
 
 
 
